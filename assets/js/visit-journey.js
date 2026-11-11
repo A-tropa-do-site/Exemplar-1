@@ -2,7 +2,7 @@
   const explorer = document.querySelector('.family-explorer');
   if (!explorer) return;
   const choices = {
-    ambiente: ['Um lugar para estar junto.', 'Uma boa conversa, a mesa reunida e tempo para aproveitar. Conheça a atmosfera que acompanha os encontros na Choupana.'],
+    ambiente: ['Um lugar para estar junto.', 'Uma boa conversa, a mesa reunida e tempo para aproveitar. Conheça a atmosfera acolhedora que acompanha os nossos encontros.'],
     brasa: ['O sabor do encontro.', 'Cortes preparados na brasa e acompanhamentos para dividir. Escolha seus sabores e aproveite a refeição em boa companhia.'],
     pizza: ['A noite pede uma pizza.', 'Dos sabores clássicos às combinações da casa, a pizzaria é um convite para reunir a família ao redor da mesa.'],
     sobremesas: ['Um doce para fechar o encontro.', 'Sobremesas para completar a refeição e dividir bons momentos à mesa. Escolha seu doce favorito e aproveite o encontro.']

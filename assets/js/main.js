@@ -1,6 +1,6 @@
 /**
- * CHOUPANA RESTAURANTE & PIZZARIA — "A RAINHA DAS BATIDAS"
- * Scripts de Interatividade & Drawer Navigation (Estilo Barbacoa)
+ * RESTAURANTE & PIZZARIA — MODELO INSTITUCIONAL
+ * Scripts de Interatividade & Drawer Navigation
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -117,10 +117,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const date = document.getElementById('bdayDate').value;
       const guests = document.getElementById('bdayGuests').value;
 
-      const message = `Olá, Equipe Choupana! Gostaria de consultar disponibilidade para comemorar um aniversário.\n\n• Nome: ${name}\n• Data: ${date}\n• Nº de Convidados: ${guests} pessoas`;
+      const message = `Olá! Gostaria de consultar disponibilidade para comemorar um aniversário.\n\n• Nome: ${name}\n• Data: ${date}\n• Nº de Convidados: ${guests} pessoas`;
       const encodedMsg = encodeURIComponent(message);
       
-      window.open(`https://api.whatsapp.com/send?phone=551124400545&text=${encodedMsg}`, '_blank');
+      window.open(`https://api.whatsapp.com/send?phone=5511999999999&text=${encodedMsg}`, '_blank');
     });
   }
 
